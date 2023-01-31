@@ -76,19 +76,6 @@ Uma loja de itens medievais, no formato de uma API, utilizando Typescript.
 
 <!-- ------------------------------------------------------------------- -->
 
-<details>
- <summary>POST /orders</summary>
- 
-- Listar todos os pedidos 
-- O endpoint deve receber a seguinte estrutura:
-
- ```JSON
-  {
-    "productsIds": [1, 2]
-  }
- 
-``` 
-
 - Deve estar logado com um token ativo: (exemplo de token)
  
  ```JSON
